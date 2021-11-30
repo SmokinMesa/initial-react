@@ -1,0 +1,17 @@
+
+
+.filters {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+
+
+    //  each filter
+    span {
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        cursor: pointer;
+        margin: 0 .25rem;
+        padding: .15rem .25rem;
+    }
+}
